@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  InstagramPhotoLoader
+//
+//  Created by Deepak on 12/23/14.
+//  Copyright (c) 2014 Personal. All rights reserved.
+//
+
+#ifndef InstagramPhotoLoader_PrefixHeader_pch
+#define InstagramPhotoLoader_PrefixHeader_pch
+
+
+#define KAUTHURL @"https://api.instagram.com/oauth/authorize/?"
+#define kAPIURL @"https://api.instagram.com/v1/tags/"
+#define KCLIENTID @"adc57ae1832d4306b9f706f0ddb803ac"
+#define KCLIENTSERCRET @"895d5a64a0aa46adb9c49f83d5135d13"
+#define kREDIRECTURI @"http://localhost"
+#define kACCESS_TOKEN_URL_PARAM @"#access_token="
+#define kACCESS_TOKEN @"accessToken"
+#define kFETCH_ACCESS_TOKEN_URL_PARAMS @"%@client_id=%@&redirect_uri=%@&response_type=token&scope=likes+comments+basic"
+#define kFETCH_MEDIA_URL @"%@selfie/media/recent?access_token=%@"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
